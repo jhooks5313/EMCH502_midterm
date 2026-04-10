@@ -1,6 +1,7 @@
 """
-Midterm Problem 2 - EMCH 502  |  Author: JP Hooks
-Explicit CD, Wilson-Theta (implicit), and RK4 for a 3-DOF system.
+Midterm P_2 - EMCH 502
+Author: JP Hooks
+Explicit CD, Wilson-Theta (implicit), and RK4 for 3-DOF system
 """
 import numpy as np
 import matplotlib.pyplot as plt
@@ -146,4 +147,3 @@ ax.grid(True, alpha=0.4)
 plt.tight_layout()
 plt.savefig(f'P2_displacement_comparison_theta-{theta_run}.png', dpi=200)
 plt.show()
-print("All three numerical methods capture this behavior consistently.")
